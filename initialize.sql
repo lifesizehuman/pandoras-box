@@ -2,7 +2,7 @@ DROP DATABASE IF EXISTS slaypg;
 
 CREATE DATABASE slaypg;
 
-USE DATABASE slaypg;
+USE slaypg;
 
 CREATE TABLE characters (
   id int auto_increment not null,
