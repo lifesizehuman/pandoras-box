@@ -23,6 +23,7 @@ CREATE TABLE characters (
   hr int not null default 1,
   mr int not null default 1,
   sr int not null default 1,
+  attack_type varchar(16) not null,
   primary key (id)
         );
 
@@ -44,5 +45,6 @@ CREATE TABLE enemies (
   luck int not null default 1,
   hr int not null default 1,
   mr int not null default 1,
-  sr int not null default 1
+  sr int not null default 1,
+  attack_type varchar(16) not null
         );
