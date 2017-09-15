@@ -48,3 +48,13 @@ CREATE TABLE enemies (
   sr int not null default 1,
   char_type varchar(16) not null
         );
+
+CREATE TABLE attacks (
+  atk_name varchar(32) not null,
+  atk_damage int default 1 not null,
+  atk_type varchar(16) not null,
+  atk_cost int default 1 not null,
+  heal boolean default false not null,
+  special boolean default false not null,
+  recast int default 0 not null
+);
