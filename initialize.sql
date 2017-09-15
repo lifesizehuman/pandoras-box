@@ -23,7 +23,7 @@ CREATE TABLE characters (
   hr int not null default 1,
   mr int not null default 1,
   sr int not null default 1,
-  primary_key (id)
+  primary key (id)
         );
 
 CREATE TABLE characters (
@@ -45,5 +45,4 @@ CREATE TABLE characters (
   hr int not null default 1,
   mr int not null default 1,
   sr int not null default 1,
-  primary_key (id)
         );
