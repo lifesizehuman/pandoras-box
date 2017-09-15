@@ -26,7 +26,7 @@ CREATE TABLE characters (
   primary key (id)
         );
 
-CREATE TABLE characters (
+CREATE TABLE enemies (
   enemy_name varchar(64) not null,
   class_name varchar(64) not null,
   current_hp int not null default 1,
