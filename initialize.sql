@@ -44,5 +44,5 @@ CREATE TABLE characters (
   luck int not null default 1,
   hr int not null default 1,
   mr int not null default 1,
-  sr int not null default 1,
+  sr int not null default 1
         );
